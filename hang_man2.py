@@ -1,3 +1,8 @@
+'''
+This is a hangman game for the user.
+You need to import random_word
+'''
+
 from random_word import RandomWords
 
 
