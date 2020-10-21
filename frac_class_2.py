@@ -70,7 +70,7 @@ print('''This is a fractions class in progress. You can initialize a
       fraction as follows:
           
         1. Initialize fractions:
-              one_half = Fraction(1, 2)
+            one_half = Fraction(1, 2)
               
         2. Add fractions:
             one_half + one_half
@@ -79,15 +79,4 @@ print('''This is a fractions class in progress. You can initialize a
             print(one_half)
           
           ''')
-
-'''
-f1 = Mixed(3, 1, 2)
-print(f1)
-print(f1.improper())
-print(f1 + f1)
-
-
-f2 = Fraction(21,35)
-print(f2.reduce())
-'''
         
