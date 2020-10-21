@@ -57,6 +57,8 @@ print(corey.seconds())
 print(zorian.seconds())
 print(lindsey.seconds())
 
+print(ellie.name)
+
 
 
 
