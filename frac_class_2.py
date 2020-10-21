@@ -69,17 +69,16 @@ class Mixed(Fraction):
 print('''This is a fractions class in progress. You can initialize a 
       fraction as follows:
           
-          1. Initialize fractions:
+        1. Initialize fractions:
               one_half = Fraction(1, 2)
               
-              2. Add fractions:
-                  one_half + one_half
+        2. Add fractions:
+            one_half + one_half
         
         3. Display fractions:
             print(one_half)
           
           ''')
-
 
 '''
 f1 = Mixed(3, 1, 2)
