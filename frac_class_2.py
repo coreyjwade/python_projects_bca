@@ -57,11 +57,12 @@ class Mixed(Fraction):
     
     def __str__(self):
         return f'{self.whole} {self.num}/{self.den}'
-
+'''
     def improper(self):
         new_num = self.den * self.whole + self.num
         new_den = self.den
         return Fraction(new_num, new_den)
+'''
     
     def __add__(self, frac2):
         return self.improper() + frac2.improper()
