@@ -1,0 +1,1 @@
+This is a fractions class in progress. You can initialize a fraction as follows:          #Initialize fractions:one_half = Fraction(1, 2)              # Add fractions:one_half + one_half        # Display fractions:print(one_half)          

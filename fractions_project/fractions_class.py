@@ -10,13 +10,13 @@ class Fraction():
     
     # Initialize class with numerator and denominator
     def __init__(self, num, den):
-        #self.num = int(num)
-        #self.den = int(den)
+        self.num = int(num)
+        self.den = int(den)
         try:
             self.num = int(num)
             self.den = int(den)
             assert self.den != 0, "Denom can't be zero"
-        except ValueError:
+        except:
             print("Inputs must be integers. Try again.")
         #except:
         #    raise TypeError("Inputs must be integers")
